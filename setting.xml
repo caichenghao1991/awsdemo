@@ -1,12 +1,12 @@
 <servers>
     <server>
         <id>snapshot</id>
-        <username>sonatype用户名</username>
-        <password>sonatype密码</password>
+        <username>caichenghao1991@gmail.com</username>
+        <password>19911030</password>
     </server>
     <server>
         <id>release</id>
-        <username>sonatype用户名</username>
-        <password>sonatype密码</password>
+        <username>caichenghao1991@gmail.com</username>
+        <password>19911030</password>
     </server>
 </servers>
