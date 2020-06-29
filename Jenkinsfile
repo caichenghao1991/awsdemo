@@ -4,19 +4,19 @@ pipeline{
         stage('Compile Stage'){
             steps{
                 git 'https://github.com/caichenghao1991/awsdemo.git'
-                sh 'mvn clean compile'
+                bat 'mvn clean compile'
 
             }
         }
         stage ('Testing Stage'){
             steps{
-                sh 'mvn test'
+                bat 'mvn test'
 
             }
         }
         stage ('Deployment Stage'){
             steps{
-                sh 'mvn deploy'
+                bat 'mvn deploy'
 
             }
         }
