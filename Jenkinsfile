@@ -3,6 +3,7 @@ pipeline{
     stages{
         stage('Compile Stage'){
             steps{
+                git 'https://github.com/caichenghao1991/awsdemo.git'
                 sh 'mvn clean compile'
 
             }
