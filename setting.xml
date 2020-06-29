@@ -1,0 +1,12 @@
+<servers>
+    <server>
+        <id>snapshot</id>
+        <username>sonatype用户名</username>
+        <password>sonatype密码</password>
+    </server>
+    <server>
+        <id>release</id>
+        <username>sonatype用户名</username>
+        <password>sonatype密码</password>
+    </server>
+</servers>
