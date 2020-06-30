@@ -17,7 +17,8 @@ pipeline{
         stage ('Deployment Stage'){
             steps{
                 //bat 'mvn deploy'
-                bat 'docker run -d -p 8761:8761 --network mynet --name awsdemo caichenghao/awsdemo:0.0.0'
+                bat 'docker build -t springbootjenkinsdocker .'
+                bat 'docker run -d -p 8082:8082 springbootjenkinsdocker'
             }
         }
 
