@@ -24,7 +24,7 @@ pipeline{
             steps{
                 //bat 'mvn deploy'
                 bat 'docker build -t springbootjenkinsdocker .'
-                bat 'docker run -d -p 127.0.0.1:8000:8082 springbootjenkinsdocker'
+                bat 'docker run -d -p 8000:8082 springbootjenkinsdocker'
             }
         }
 
