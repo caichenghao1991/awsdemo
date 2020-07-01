@@ -25,6 +25,8 @@ pipeline{
                 //bat 'mvn deploy'
                 bat 'docker build -t springbootjenkinsdocker .'
                 bat 'docker run -d -p 8000:8080 springbootjenkinsdocker'
+                //docker-machine ip default   tomcat 8080  so docker container need to be 8080
+                //http://192.168.99.100:8000/
             }
         }
 
